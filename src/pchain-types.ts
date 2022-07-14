@@ -25,6 +25,10 @@ import pchain = require("./pchain");
     pchain.typeConverter.base64ToUint8Array = (text: string) => {
         return new Uint8Array(Buffer.from(text, 'base64'))
     }
+
+    pchain.typeConverter.base64URLToUint8Array = (text: string) => {
+        return new Uint8Array(Buffer.from(text, 'base64url'))
+    }
     
     pchain.typeConverter.hexToUint8Array = (text: string) => {
         return new Uint8Array(Buffer.from(text, 'hex'));
