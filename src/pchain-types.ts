@@ -1,5 +1,5 @@
-import { DataType } from "./types";
-import pchain = require("./types");
+import { DataType } from "./pchain";
+import pchain = require("./pchain");
 
 (function(pchain) {
     'use strict';

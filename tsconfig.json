@@ -6,6 +6,6 @@
       "outDir": "./lib",
       "strict": true
     },
-    "include": ["src", "src/serialize.js"],
+    "include": ["src", "serialize.js"],
     "exclude": ["node_modules", "**/__tests__/*"]
   }

@@ -1,10 +1,12 @@
 {
-  "name": "pchain-protocol-types-js",
+  "name": "pchain-types-js",
   "version": "1.0.0",
-  "description": "This is a serialization/deserialization library for parallelchain protocol-types",
-  "main": "index.tsx",
+  "description": "PChain types implementation for Javascript and related frameworks",
+  "types": "src/pchain.d.ts",
+  "main":"lib/index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
+    "dev": "nodemon serialize.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
